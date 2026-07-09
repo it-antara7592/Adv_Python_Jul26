@@ -1,4 +1,4 @@
-# Example of Classes and Objects
+#Example of Classes and Objects
  
 class Dog: #Class
     #Constructor
