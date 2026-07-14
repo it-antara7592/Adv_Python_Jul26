@@ -15,4 +15,4 @@ class ProductMeta(ABCMeta):
         if not namespace.get("__abstractmethods__") and name != "BaseProduct":
             ProductRegistry.register(cls)
 
-        return cls
+        
