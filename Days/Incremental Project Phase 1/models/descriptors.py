@@ -27,4 +27,4 @@ class NonEmptyString:
         if not value.strip():
             raise ValueError("String cannot be empty.")
 
-        setattr(instance, self.private_name, value)
+        setattr(instance, self.private_name, value)    
