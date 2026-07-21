@@ -132,7 +132,9 @@ class ContractEmployee(Employee):
         
         
 class Payroll():
-    emp=[]
+    def __init__(self):
+        self.emp = [] 
+        
     def add_employee(self,empp):
         self.emp.append(empp)
         
