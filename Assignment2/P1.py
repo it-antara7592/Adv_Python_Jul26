@@ -13,7 +13,6 @@
 
 
 def count_characters(text):
-    list1=[]
     list2=[]
     list1=list(filter(str.isalpha,text))
     list1.sort()
